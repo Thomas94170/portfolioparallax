@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <title>Thirion Thomas mon portfolio</title>
+</head>
+<body>
+    
+    <!-- Fixed navbar -->
+    
+
+    <!-- Begin page content -->
+    <div class="container-fluid">
+      
+      <div class="row cover top">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-xs-12 headline">
+              <h1 class="text-center">Hi, I'm Thomas</h1>
+              <p class="lead text-center">I am a student in Web devlopment.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+      <div id="about" class="row cover">
+        <h2 class="text-center rellax" data-rellax-speed="10">About Me</h2>
+        <div class="row">
+          <div class="col-md-6 text-center about-info rellax" data-rellax-speed="7">
+            <img class="rounded-circle text-center profile-img" src="photo profil.jpg">
+            <p class="text-center rellax" data-rellax-speed="5">I live in the suburbs of Paris. Having obtained my web dev graduate, I am looking for a work-study program for my bachelor's degree specialty React and Javascript.</p>
+          </div>
+          <div class="col-md-6 about-tools">
+            <p class="text-center rellax" data-rellax-speed="8">Here are some of the tools I've been using for 1 year and a half.</p>
+              <div class="col-xs-6 rellax" data-rellax-speed="7">
+                <ul>
+                  <li><i class="fa-brands fa-html5"></i></li>
+                  <li><i class="fa-brands fa-css3"></i></li>
+                  <li><i class="fa-brands fa-js"></i></li>
+                  <li><i class="fa-brands fa-bootstrap"></i></li>
+                  <li>TailwindCSS</li>
+                </ul>
+              </div>
+              <div class="col-xs-6 rellax" data-rellax-speed="9">
+                <ul>
+                  <li>Next.JS</li>
+                  <li><i class="fa-brands fa-symfony"></i></li>
+                  <li><i class="fa-brands fa-github"></i></li>
+                  <li><i class="fa-brands fa-react"></i></li>
+                  <li><i class="fa-brands fa-php"></i></li>
+                  <li>MySQL</li>
+                </ul>
+              </div>
+            
+          </div>
+          <div class="row break">
+            <div class="col-md-6 about-last">
+              
+            </div>
+          </div>
+        </div> 
+      </div><!-- End #About -->
+
+      <div id="portfolio" class="row cover">
+        <h2 class="text-center rellax" data-rellax-speed="8">Portfolio</h2>
+        <div class="container">
+          <div class="row portfolio-projects"> <!-- Two project row-->
+            <div class="col-lg-6 rellax" data-rellax-speed="5"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center" >
+                  <h4 class="portfolio-projects--title">Charles Cantin Photographer</h4>
+                  <p class="portfolio-projects--desc">A photographer's website</p>
+                  <p class="portfolio-projects--desc">Uses: Javascript,Bootstrap. Creating an API with the Strapi CMS</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://charles-photographie.vercel.app/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="portfolio-projects--image" src="./img/cantin.png">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 rellax" data-rellax-speed="4"> <!--2nd side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <h4 class="portfolio-projects--title">Crypto Watch</h4>
+                  <p class="portfolio-projects--desc">View cryptocurrencies</p>
+                  <p class="portfolio-projects--desc">Next.js, TailwindCSS. Using the Nomics.com API</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://ttcrypto-monnaies.vercel.app/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <img class="img-rounded portfolio-projects--image" src="./img/cryptowatch.png">
+                </div>
+              </div>
+            </div>
+          </div><!--end Two project row-->
+
+          <div class="row portfolio-projects"> <!-- Opposite Two project row-->
+            <div class="col-lg-6 rellax" data-rellax-speed="2"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="portfolio-projects--title">Roll Dice</h4>
+                  <p class="portfolio-projects--desc">A dice game in Javascript.</p>
+                  <p class="portfolio-projects--desc">Uses: Javascript</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://evaluation-studi-js-ththomas.netlify.app/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="img-rounded portfolio-projects--image" src="./img/jeujs.png">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 rellax" data-rellax-speed="9"> <!--2nd side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <h4 class="portfolio-projects--title">KGB</h4>
+                  <p class="portfolio-projects--desc">Create missions by assigning required agents, targets, hideouts and skills.
+            
+                  </p>
+                  <p class="portfolio-projects--desc">id : Doe
+            
+                </p>
+                <p class="portfolio-projects--desc">password : psw1234
+            
+                </p>
+                  <p class="portfolio-projects--desc">Uses: PHP</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://spygame.fly.dev/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center pull-right-sm"><!--flipped on small, unflipped on large-->
+                  <img class="img-rounded portfolio-projects--image" src="./img/kgb.png">
+                </div>
+              </div>
+            </div>
+            <div class="row portfolio-projects"> <!-- Opposite Two project row-->
+                <div class="col-lg-6 rellax" data-rellax-speed="6"> <!--1st side project -->
+                  <div class="row"> 
+                    <div class="col-sm-5 text-center">
+                      <h4 class="portfolio-projects--title">Admin Fitness</h4>
+                      <p class="portfolio-projects--desc">Gym management site..</p>
+                      <p class="portfolio-projects--desc">Uses: Javascript, Ajax, TailwindCSS, Symfony</p>
+                      <a class="btn btn-rounded portfolio-projects--btn" href="https://adminfitness.fly.dev/" role="button">View Project</a>
+                    </div>
+                    <div class="col-sm-7 text-center">
+                      <img class="img-rounded portfolio-projects--image" src="./img/adminfitness.png">
+                    </div>
+                  </div>
+                </div>
+                
+          </div><!--end Opposite Two project row-->
+
+        </div>
+        </div>
+      </div><!-- End #Portfolio -->
+
+      <div id="contact" class="row cover bottom rellax" data-rellax-speed="4">
+        <h2 class="text-center contact-header">Contact Me</h2>
+        <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> manahan.erin@gmail.com</p>
+        <div class="text-center contact-social-icons">
+          <p>Or find me on:</p>
+          <ul class="centered">
+            <a href="https://www.facebook.com/94thomilyes68"><li><i class="fa-brands fa-square-facebook"></i> Facebook</li></a>
+            <a href="https://www.linkedin.com/in/thomas-thirion-776748145/"><li><i class="fa-brands fa-linkedin-in"></i> LinkedIn</li></a>
+            <a href="https://github.com/Thomas94170"><li><i class="fa-brands fa-github-alt"></i> Github</li></a>
+           
+          </ul>
+        </p>
+        
+      </div><!-- End #Contact -->
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
