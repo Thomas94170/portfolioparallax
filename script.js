@@ -38,7 +38,7 @@ $(document).ready(function () {
 
 //jquery pour le slide
 
-$(".image").click(function () {
-  $(".image").removeClass("active");
+$(".pict").click(function () {
+  $(".pict").removeClass("active");
   $(this).addClass("active");
 });
