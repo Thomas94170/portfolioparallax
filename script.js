@@ -35,3 +35,10 @@ $(document).ready(function () {
     $.scrollTo(0, 1000);
   });
 });
+
+//jquery pour le slide
+
+$(".image").click(function () {
+  $(".image").removeClass("active");
+  $(this).addClass("active");
+});

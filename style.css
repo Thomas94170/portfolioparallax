@@ -166,7 +166,7 @@ body > .container-fluid {
     font-size: 1.5em; }
     @media screen and (min-width: 992px) {
       .about-tools {
-        padding-top: 5.625em; } }
+        padding-top: 2.625em; } }
     .about-tools ul:first-child {
       padding-left: 0px; }
     .about-tools ul {
@@ -259,3 +259,59 @@ body > .container-fluid {
   display: none; }
   .back-to-top.visible {
     display: block; }
+
+
+
+.image{
+  min-width: 60px;
+  margin: 10px;
+  cursor: pointer;
+  transition: .5s cubic-bezier(0.05,0.61,0.41,0.95);
+  overflow: hidden;
+  position:relative;
+}
+.image.active{
+  flex-grow: 100;
+  max-width: 600px;
+  margin:0px;
+  border-radius: 7px;
+  background-size: auto 100%;
+}
+
+.image:not(.active){
+  flex-grow: 1;
+  border-radius: 5px;
+}
+
+.portfolio-slide{
+  font-family:url(./Zen_Dots/ZenDots-Regular.ttf);
+  display: flex;
+  min-width: 600px;
+  max-width: 900px;
+  height: 400px;
+  margin: 4rem auto;
+}
+
+.txt-contain{
+  width: 100px;
+  height: 400px;
+  padding: 2rem;
+  visibility: hidden;
+  transform: translateY(300px);
+  opacity: 0;
+  transition: all .4s ease;
+  background: linear-gradient(354deg, black 0%, transparent 72%);
+  color: #FFEAD0;
+  overflow: hidden;
+}
+
+.txt{
+  position: absolute;
+  bottom: 5rem;
+}
+
+.active .txt-contain{
+  visibility: visible;
+  transform:translateY(Opx);
+  opacity: 1;
+}
