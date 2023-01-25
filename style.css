@@ -323,3 +323,12 @@ body > .container-fluid {
     .lien{
       color: #FFEAD0;
     }
+
+
+    @media (min-width: 400px) {
+      .pict {
+        display: block;
+        width: 100%;
+      }
+    }
+    
